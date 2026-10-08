@@ -52,7 +52,8 @@ function allowVideo() { return !motionPreference.matches && !connection?.saveDat
 function playVideo() { if (video.getAttribute('src') && allowVideo() && !videoUserPaused && videoInView && !document.hidden) video.play().catch(() => { videoToggle.hidden = false; videoToggle.innerHTML = '<span aria-hidden="true">▷</span> Play video'; videoToggle.setAttribute('aria-label','Play background video'); }); }
 function setupVideo() {
  if (!allowVideo()) return;
- if (!video.getAttribute('src')) video.src = window.matchMedia('(max-width: 760px)').matches ? 'media/club-atmosphere-mobile.mp4' : 'media/club-atmosphere-desktop.mp4';
+ if (!video.getAttribute('src')) video.src = window.matchMedia('(max-width: 760px)').matches ? 'media/hero-mobile-v2.mp4' : 'media/hero-desktop-v2.mp4';
+ video.poster = window.matchMedia('(max-width: 760px)').matches ? 'media/hero-poster-mobile-v2.jpg' : 'media/hero-poster-v2.jpg';
  video.muted = true;
  playVideo();
 }

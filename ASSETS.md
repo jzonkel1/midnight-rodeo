@@ -4,8 +4,8 @@ The hero video is illustrative licensed stock footage, not footage of Midnight R
 
 - Source: [People dancing at a night club — Mixkit 4344](https://mixkit.co/free-stock-video/people-dancing-at-a-night-club-4344/)
 - License: [Mixkit Stock Video Free License](https://mixkit.co/license/#videoFree), source page permits commercial and personal projects.
-- Derived files: `media/club-atmosphere-desktop.mp4` (960×540), `media/club-atmosphere-mobile.mp4` (640×360), and matching poster. Video is an eight-second silent trim, compressed with faststart and smoothed lighting changes.
-- Mobile playback downloads about 0.63 MB; desktop about 1.17 MB. Reduced-motion and data-saver preferences use the still poster. Playback pauses outside the hero or when the tab is hidden.
+- Derived files (re-cut 10/8/26 from the 1080p source, seconds 3-11): `media/hero-mobile-v2.mp4` (608x1080 portrait centre crop, ~2.3 MB), `media/hero-desktop-v2.mp4` (1280x720, ~3.3 MB), and matching posters. The first cut (640x360 landscape) was upscaled ~5x on phones and looked compressed.
+- Reduced-motion and data-saver preferences use the still poster. Playback pauses outside the hero or when the tab is hidden.
 
 Venue-provided promotional flyers and logo were retained from the existing demo. Supporting crowd and whiskey photos were also retained; they have not been verified as venue photography.
 
